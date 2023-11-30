@@ -6,10 +6,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 #include "error_handling.h"
 #include "parent.h"
 #include "child.h"
-
 
 /* Aξιοποιούνται οι: stdio.h η οποία περιλαμβάνει βασικές
    συναρτήσεις εισόδου / εξόδου όπως η fprintf(), scanf()
@@ -28,7 +30,7 @@ int main(int argc, char *argv[]) {
 
     /*  Δήλωση μεταβλητών  */
 
-
+    char *source_path = NULL;
 
 
     /*  Έλεγχος ορθότητας ορισμάτων εισόδου  */
