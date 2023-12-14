@@ -29,6 +29,7 @@ If you face a situation full of errors, please contact the maintainers.
 
 **Helper** provides the following features:
 
+ - Display the contents of a given file sorted on the standard output.
  -  Easy error detection.
  
 ## Requirements
