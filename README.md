@@ -79,15 +79,16 @@ If you prefer not to use the command via `./helper`, there is also an alternativ
 | Exit code | Description |
 | :---------: |  :---------:  |
 |     0     |   SUCCESS   |
-|     1     ||
-|     2     ||
-|     3     ||
-|     4     ||
-|     5     ||
-|     6     ||
-|     7     ||
-|     8     ||
-|     9     ||
+|     1     |EMPTY_FILEFILE_ERROR|
+|     2     |ARGUMENT_ERROR|
+|     3     |PIPE_CREATION_ERROR|
+|     4     |FORK_ERROR|
+|     5     |DUP_ERROR|
+|     6     |EXEC_ERROR|
+|     7     |READ_ERROR|
+|     8     |WRITE_ERROR|
+|     9     |CHILD_EXIT_ERROR|
+|    10     |WAIT_ERROR|
 
 **Exit Code 0:** If your program returns exit code 0 after execution, it means that it ran without any issues. :D
 
